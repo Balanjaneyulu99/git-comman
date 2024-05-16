@@ -1,0 +1,95 @@
+ERROR-1
+--------------------
+
+EC2AMAZ-1R6OIFC 10016   Warning Microsoft-Windows-DistributedCOM        System  5/15/2024 12:12:36 PM
+
+error message
+-----------
+
+The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID
+{21B896BF-008D-4D01-A27B-26061B960DD7}
+ and APPID
+{03E09F3B-DCE4-44FE-A9CF-82D050827E1C}
+ to the user EC2AMAZ-1R6OIFC\Administrator SID (S-1-5-21-458178439-3199900466-1794760498-500) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+ERROR-2
+----------------
+
+EC2AMAZ-1R6OIFC 15      Warning Microsoft-Windows-Wininit       System  5/15/2024 12:09:23 PM
+
+error message
+----------
+
+Credential Guard and/or VBS Key Isolation are configured but the secure kernel is not running; continuing without them.
+
+ERROR-3
+------------------
+
+EC2AMAZ-1R6OIFC 10149   Warning Microsoft-Windows-Windows Remote Management     System  5/15/2024 11:42:30 AM
+
+error message
+----------
+
+The WinRM service is not listening for WS-Management requests.
+
+ User Action
+ If you did not intentionally stop the service, use the following command to see the WinRM configuration:
+
+ winrm enumerate winrm/config/listener
+
+ERROR-4
+----------------
+
+EC2AMAZ-1R6OIFC 15      Warning Microsoft-Windows-Wininit       System  5/15/2024 11:41:34 AM
+
+error message
+----------------
+
+Credential Guard and/or VBS Key Isolation are configured but the secure kernel is not running; continuing without them.
+
+ERROR-5
+----------------
+
+EC2AMAZ-1R6OIFC 10149   Warning Microsoft-Windows-Windows Remote Management     System  5/15/2024 11:41:26 AM
+
+error message
+-------------
+
+The WinRM service is not listening for WS-Management requests.
+
+ User Action
+ If you did not intentionally stop the service, use the following command to see the WinRM configuration:
+
+ winrm enumerate winrm/config/listener
+
+ERROR-6
+-----------------
+
+EC2AMAZ-1R6OIFC 7043    Error   Microsoft-Windows-Service Control Manager       System  5/15/2024 11:41:26 AM
+
+error message
+-------------
+
+The Windows Update service did not shut down properly after receiving a preshutdown control.
+
+ERROR-7
+------------------
+
+EC2AMAZ-1R6OIFC 7023    Error   Microsoft-Windows-Service Control Manager       System  5/15/2024 11:40:31 AM
+
+error message
+-------------
+
+The netprofm service terminated with the following error:
+The device is not ready.
+
+ERROR-8
+------------------
+
+EC2AMAZ-1R6OIFC 15      Warning Microsoft-Windows-Wininit       System  5/15/2024 11:40:22 AM
+
+error message
+-------------
+
+Credential Guard and/or VBS Key Isolation are configured but the secure kernel is not running; continuing without them.
+
